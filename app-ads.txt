@@ -1,6 +1,13 @@
 # app-ads.txt — Block Paradise (com.blockparadise.puzzle)
 # Source: Unity Dashboard > Monetization > Organization settings > App-ads.txt (org 13469932863198), 2026-08-06.
 # Seller lines are VERBATIM from Unity. Do not hand-edit or reorder; re-copy from the dashboard when it reports missing sellers.
+
+# OwnerDomain — REQUIRED by Unity (docs.unity.com/en-us/grow/ads/optimization/app-ads-txt).
+# Declares the business domain of the property owner and links this file to sellers.json.
+# Must resolve without redirects (verified: https://vikashruhilgit.github.io -> 200, no redirect).
+# No separate business domain exists, so the site's own domain is used, which the doc permits.
+ownerdomain=vikashruhilgit.github.io
+
 anzu.io, 691e95644e633a6eee2567ee, RESELLER
 appads.in, 106246, RESELLER
 appnexus.com, 11826, RESELLER, f5ab79cb980f11d1
