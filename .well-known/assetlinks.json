@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.blockparadise.puzzle",
+      "sha256_cert_fingerprints": [
+        "20:17:21:79:72:B1:FF:11:81:E1:1A:77:47:54:88:3C:42:ED:46:0D:CE:2A:36:D7:69:1B:30:66:D3:80:F0:CC"
+      ]
+    }
+  }
+]
