@@ -1,5 +1,12 @@
 # app-ads.txt — Block Paradise (com.blockparadise.puzzle)
-# Source: Unity Dashboard > Monetization > Organization settings > App-ads.txt (org 13469932863198), 2026-08-06.
+# Source: Unity Dashboard > Monetization > Organization settings > App-ads.txt, 2026-08-19.
+# TWO unity.com DIRECT lines are intentional, one per Unity organization:
+#   143742721 -> org 13469957806006 (nssingh8ns) — the LevelPlay mediation account, app key 27af59a55.
+#                This is the account all NEW ad revenue flows through. Reported missing by the
+#                dashboard until 2026-08-19; added that day.
+#   129365040 -> org 13469932863198 (older org) — the Unity Ads path in the SHIPPED 1.0.3 build.
+#                Kept until the LevelPlay build is live on Play, then remove it: an unused DIRECT
+#                grant authorizes an account that no longer sells this inventory.
 # Seller lines are VERBATIM from Unity. Do not hand-edit or reorder; re-copy from the dashboard when it reports missing sellers.
 
 # OwnerDomain — REQUIRED by Unity (docs.unity.com/en-us/grow/ads/optimization/app-ads-txt).
@@ -117,6 +124,7 @@ triplelift.com, 14798, RESELLER, 6c33edb13117fd86
 triplelift.com, 6998, RESELLER, 6c33edb13117fd86
 undertone.com, 4108, RESELLER
 unity.com, 129365040, DIRECT, 96cabb5fbdde37a7
+unity.com, 143742721, DIRECT, 96cabb5fbdde37a7
 vidazoo.com, 6a3384a48eca8f6ddad62520, RESELLER, b6ada874b4d7d0b2
 video.unrulymedia.com, 144138083, RESELLER
 video.unrulymedia.com, 201313863, RESELLER
