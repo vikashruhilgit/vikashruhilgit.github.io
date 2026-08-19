@@ -7,7 +7,11 @@
 #   129365040 -> org 13469932863198 (older org) — the Unity Ads path in the SHIPPED 1.0.3 build.
 #                Kept until the LevelPlay build is live on Play, then remove it: an unused DIRECT
 #                grant authorizes an account that no longer sells this inventory.
-# Seller lines are VERBATIM from Unity. Do not hand-edit or reorder; re-copy from the dashboard when it reports missing sellers.
+# Seller lines are VERBATIM from the issuing dashboard. Do not hand-edit or reorder;
+# re-copy when a dashboard reports missing sellers.
+# google.com, pub-6953772477762978 is DIRECT — our OWN AdMob account (issued by AdMob's app
+#   verification step, 2026-08-19). The other google.com lines are RESELLER: Google demand
+#   reaching us indirectly through Unity mediation, not an account we hold.
 
 # OwnerDomain — REQUIRED by Unity (docs.unity.com/en-us/grow/ads/optimization/app-ads-txt).
 # Declares the business domain of the property owner and links this file to sellers.json.
@@ -34,6 +38,7 @@ google.com, pub-1682595508078257, RESELLER, f08c47fec0942fa0
 google.com, pub-2923085774557613, RESELLER, f08c47fec0942fa0
 google.com, pub-3990748024667386, RESELLER, f08c47fec0942fa0
 google.com, pub-5060663379040713, RESELLER, f08c47fec0942fa0
+google.com, pub-6953772477762978, DIRECT, f08c47fec0942fa0
 ignitemediatech.com, pub_11115, RESELLER
 improvedigital.com, 2297, RESELLER
 improvedigital.com, 2464, RESELLER
